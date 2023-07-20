@@ -15,22 +15,40 @@ This analysis processes the clustering of cryptocurrencies using PCA and K-means
 
 ### Results
 
-[elbow image]
+<img alt='elbow image' style='width: 80vw' src'Output/ellbow_curve.png'>
 By creating and evaluating an elbow curve a cluster total of 4 was chosen.
 
 After implementing our K-means model with 4 clusters, the distribution of our class counts seem to be off.
 
-Class | Count
-     0   |  285
-     1   |   6
-     2   |   1
-     3   |  240
+<table>
+  <tr>
+    <th>Class</th>
+    <th>Count</th>
+  </tr>
+  <tr>
+    <td>0</td>
+    <td>285</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>6</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>240</td>
+  </tr>
+</table>
+
 
 The next step was plotting the data to make clearer the classes. 
 
 It became clear the reasons for the "outlier" clusters. The 7 points between those two classes are clearly differentiated between the other 525 coins.
 
-[3d plot]
+<img alt='cluster graph' style='width: 80vw' src'Output/cluster_graph.png'>
 
 
 ### Summary

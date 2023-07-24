@@ -15,7 +15,7 @@ This analysis processes the clustering of cryptocurrencies using PCA and K-means
 
 ### Results
 
-<img alt='elbow image' style='width: 80vw' src='https://raw.githubusercontent.com/LJD0/Cryptocurrecy_Clustering/master/Output/ellbow_curve.png'>
+<img alt='elbow image' style='width: 80vw' src='https://raw.githubusercontent.com/LJD0/Cryptocurrecy_Clustering/main/Output/ellbow_curve.png'>
 
 By creating and evaluating an elbow curve a cluster total of 4 was chosen.
 
